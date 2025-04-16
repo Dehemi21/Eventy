@@ -1,0 +1,76 @@
+.final-budget {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .final-budget h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .budget-box {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  }
+  
+  .budget-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .budget-row.highlight {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .budget-row.remaining {
+    color: #ff7f50;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  .final-actions {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .back-btn,
+  .finish-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .finish-btn {
+    background-color: #ff7f50;
+    color: white;
+  }
+  
+  .finish-btn:hover {
+    background-color: #ff5722;
+  }
+  

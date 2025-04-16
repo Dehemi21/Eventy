@@ -1,0 +1,60 @@
+.guestlist-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .guestlist-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .guest-counts {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .guest-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .guest-box label {
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .guest-box input {
+    width: 80px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .total-display {
+    margin-top: 20px;
+  }
+  
+  .total-display h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .total-display p {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ff7f50;
+  }
+  

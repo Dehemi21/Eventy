@@ -1,0 +1,96 @@
+.decoration-section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .decoration-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  .decoration-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .decor-item {
+    background-color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .decoration-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .decoration-form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    min-width: 250px;
+  }
+  
+  .decoration-form button {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .upload-section {
+    margin-bottom: 30px;
+  }
+  
+  .preview-img {
+    margin-top: 15px;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .back-btn,
+  .next-btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .back-btn {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .next-btn {
+    background-color: #ff7f50;
+    color: white;
+  }
+  
+  .next-btn:hover {
+    background-color: #ff5722;
+  }
+  

@@ -1,0 +1,39 @@
+.tasks-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .tasks-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #222;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .task-item {
+    background-color: #f6f6f6;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .task-name {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .task-due {
+    color: #ff7f50;
+    font-weight: bold;
+  }
+  
